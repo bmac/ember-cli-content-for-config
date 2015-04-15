@@ -28,24 +28,7 @@ module.exports = function(environment) {
     environment: environment,
     // ...
     },
-
-    APP: {
-      // Here you can pass flags/options to your application instance
-      // when it is created
-    }
-  };
-
-  if (environment === 'development') {
-    // ...
-  }
-
-  if (environment === 'test') {
-    // ...
-  }
-
-  if (environment === 'production') {
-    // ...
-  }
+  // ...
 
   return ENV;
 };
