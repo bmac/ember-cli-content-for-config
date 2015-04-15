@@ -34,7 +34,7 @@ module.exports = function(environment) {
 };
 ```
 
-Then you can reference the config values in your `app/index.html` by with `content-for` using the key `config.` followed by the path to the property. For example, to interpolate the version you would use `{{content-for 'config.version'}}`.
+Then you can reference the config values in your `app/index.html` with `content-for` using the key `config.` followed by the path to the property. For example, to interpolate the version you would use `{{content-for 'config.version'}}`.
 
 ```html
 <!DOCTYPE html>
