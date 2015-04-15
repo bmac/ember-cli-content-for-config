@@ -65,7 +65,7 @@ Then you can reference the config values in your index.html by with `content-for
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', '{{content-for 'config.google_analytics_id'}}', 'auto');
+      ga('create', '{{content-for 'config.analytics.google_analytics_id'}}', 'auto');
       ga('send', 'pageview');
     </script>
 
