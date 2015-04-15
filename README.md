@@ -55,7 +55,7 @@ Then you can reference the config values in your index.html by with `content-for
 
 ```html
 <!DOCTYPE html>
-<html>
+<html class="{{content-for 'config.environment'}}">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
