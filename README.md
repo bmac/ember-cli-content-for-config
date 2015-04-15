@@ -1,6 +1,6 @@
 # Ember-cli-content-for-config
 
-This addon allows you to use the `{{content-for }}` helper in your `app/index.html` file to interoplate values from the `config/enviroment.js` config object into the `index.html` file.
+This addon allows you to use the `{{content-for 'config.path.to.value'}}` helper in your `app/index.html` file to interoplate values from the `config/enviroment.js` config object into the `index.html` file.
 
 This is useful if you need to include different config values in your `index.html` file based on the build enviroment.
 
