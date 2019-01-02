@@ -7,7 +7,7 @@ This is useful if you need to include different config values in your `index.htm
 
 ## Installation
 
-* `ember install:addon ember-cli-content-for-config`
+* `ember install ember-cli-content-for-config`
 
 ## Usage
 
